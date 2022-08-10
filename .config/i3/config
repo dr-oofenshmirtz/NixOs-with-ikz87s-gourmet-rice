@@ -217,3 +217,4 @@ workspace_auto_back_and_forth yes
 
 for_window [class="firefox"] focus
 
+exec --no-startup-id cd ~; ./.git-sync.sh
