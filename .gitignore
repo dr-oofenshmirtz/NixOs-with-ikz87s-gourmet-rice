@@ -1,5 +1,9 @@
+yo
+yo.pub
 *.zip
 */*.zip
+.ssh
+.ssh/*
 .cache/*
 .gitconfig
 .oh-my-zsh/*

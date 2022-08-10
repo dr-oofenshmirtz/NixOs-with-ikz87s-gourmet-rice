@@ -1,8 +1,3 @@
-# Makes the middle mouse button not paste
-pkill xbindkeys || true
-"echo -n | xsel -n -i; xdotool click 2; xbindkeys"
-b:2 + Release
-
 # Makes CapsLock behave like Ctrl
 setxkbmap -option ctrl:nocaps
 
