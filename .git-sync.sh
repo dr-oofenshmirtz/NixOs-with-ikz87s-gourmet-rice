@@ -4,5 +4,5 @@ git pull
 git commit -am "auto-$EPOCHSECONDS"
 git push
 
-(echo "$EPOCHSECONDS") > ~/.git-sync-last-run.txt
+bash echo "$EPOCHSECONDS" > ~/.git-sync-last-run.txt
 
