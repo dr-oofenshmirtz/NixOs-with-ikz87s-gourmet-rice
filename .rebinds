@@ -1,0 +1,13 @@
+# Makes the middle mouse button not paste
+pkill xbindkeys || true
+"echo -n | xsel -n -i; xdotool click 2; xbindkeys"
+b:2 + Release
+
+# Makes CapsLock behave like Ctrl
+setxkbmap -option ctrl:nocaps
+
+# Makes double shift perform caps
+setxkbmap -option shift:both_capslock
+
+# Makes short-pressed Ctrl behave like Escape:
+xcape -e 'Control_L=Escape'  
