@@ -187,7 +187,7 @@ interval=30
 # Date Time
 #
 [time]
-command= date '+%d/%m/%Y %H:%M'
+command= date '+%m/%d/%Y %H:%M'
 label=
 interval=1
 

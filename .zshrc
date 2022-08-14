@@ -111,5 +111,3 @@ alias clippy-init='cargo clippy -- fix -- \
     -W clippy::unwrap_used \
     -W clippy::expect_used'
 
-# rebind keys
-xbindkeys &
