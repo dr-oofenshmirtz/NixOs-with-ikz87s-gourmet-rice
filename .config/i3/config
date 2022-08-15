@@ -206,6 +206,7 @@ assign [class="firefox"] 1
 assign [class="kitty"] 2
 assign [class="obsidian"] 3
 assign [class=Thunar] 4
+assign [class=Transmission] 9
 
 exec firefox
 exec kitty
