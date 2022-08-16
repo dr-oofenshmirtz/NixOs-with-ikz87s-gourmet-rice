@@ -2,7 +2,7 @@
 
 #auto backup git
 
-echo "${EPOCHSECONDS}"
+echo ${EPOCHSECONDS}
 
 git pull
 git add .
