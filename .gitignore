@@ -35,8 +35,6 @@ Downloads/*
 .config/xubuntu
 .config/xubuntu/*
 .gnupg
-.config/obsidian/*
-.config/obsidian
 go/*
 golib/*
 .ICEauthority
