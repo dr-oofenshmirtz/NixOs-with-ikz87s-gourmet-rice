@@ -15,13 +15,16 @@ code/*
 .config/i3blocks/scripts
 Desktop/*
 .dmrc
+Documents
 Documents/*
 Downloads/*
 .fehbg
 .fzf
 .fzf.bash
 .gem/*
-.git/*
+.git/
+.config/neon80sConfigs
+.config/neon80sConfigs/*
 .config/xfce4
 .config/xfce4/*
 .config/ibus
