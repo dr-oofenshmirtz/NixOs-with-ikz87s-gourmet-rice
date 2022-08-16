@@ -2,6 +2,8 @@
 
 #auto backup git
 
+echo "${EPOCHSECONDS}"
+
 git pull
 git add .
 git commit -m "auto-${EPOCHSECONDS}"
