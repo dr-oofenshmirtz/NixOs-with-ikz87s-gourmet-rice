@@ -210,6 +210,7 @@ assign [class=Transmission] 9
 
 exec firefox
 exec kitty
+exec obsidian
 
 exec --no-startup-id feh --bg-center ~/Pictures/wallpapers/wallhaven-83do1o.jpg
 
