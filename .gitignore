@@ -1,5 +1,3 @@
-yo
-yo.pub
 *.zip
 */*.zip
 .ssh
@@ -41,7 +39,6 @@ Downloads/*
 go/*
 golib/*
 .ICEauthority
-.local/*
 .mozilla/*
 Music/*
 neovide_r2022-08-09_15-32-28.restart-0001.log
@@ -54,6 +51,8 @@ Public/*
 rofi/*
 rofi
 .rustup
+.local
+.local/*
 snap/*
 .sudo_as_admin_successful
 Templates/*
