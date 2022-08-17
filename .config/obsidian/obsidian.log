@@ -179,3 +179,10 @@
 2022-08-17 20:59:57 Success.
 2022-08-17 20:59:57 Latest version is 0.15.9
 2022-08-17 20:59:57 App is up to date.
+2022-08-17 21:12:33 Loading main app package /opt/Obsidian/resources/obsidian.asar
+2022-08-17 21:12:33 Checking for update using Github
+2022-08-17 21:12:33 Failed to check for update using Github (net::ERR_INTERNET_DISCONNECTED)
+2022-08-17 21:12:33 Checking for update using obsidian.md
+2022-08-17 21:12:33 Success.
+2022-08-17 21:12:33 Latest version is 0.15.9
+2022-08-17 21:12:33 App is up to date.
