@@ -1,0 +1,18 @@
+{
+  "accounts": {
+    "im.izaac.seo_PXZzoi@kindle.com": [
+      "EPUB, TPZ",
+      true,
+      true
+    ]
+  },
+  "aliases": {},
+  "encryption": "TLS",
+  "from_": "wise.zone0076@outlook.com",
+  "relay_host": "smtp-mail.outlook.com",
+  "relay_password": "7a3957793d6624442a777d3a584057406325463b",
+  "relay_port": 587,
+  "relay_username": "wise.zone0076@outlook.com",
+  "subjects": {},
+  "tags": {}
+}
