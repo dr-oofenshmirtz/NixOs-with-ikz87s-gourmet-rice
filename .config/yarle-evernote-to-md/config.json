@@ -1,0 +1,45 @@
+{
+	"keepOriginalHtml": false,
+	"isNotebookNameNeeded": false,
+	"isZettelkastenNeeded": false,
+	"plainTextNotesOnly": false,
+	"addLocation": false,
+	"addCreationTime": false,
+	"addUpdateTime": false,
+	"addSourceUrl": false,
+	"addWebClips": false,
+	"addTags": false,
+	"useHashTags": true,
+	"outputFormat": "ObsidianMD",
+	"taskOutputFormat": "ObsidianMD",
+	"skipEnexFileNameFromOutputPath": false,
+	"keepMDCharactersOfENNotes": false,
+	"monospaceIsCodeBlock": false,
+	"resourcesDir": "_resources",
+	"enexSources": {
+		"0": "./test/data/test-template.enex"
+	},
+	"templateFile": "./sampleTemplate.tmpl",
+	"outputDir": "out",
+	"isMetadataNeeded": false,
+	"skipLocation": false,
+	"skipCreationTime": false,
+	"skipUpdateTime": false,
+	"skipSourceUrl": false,
+	"skipWebClips": false,
+	"skipTags": false,
+	"keepOriginalAmountOfNewlines": false,
+	"urlEncodeFileNamesAndLinks": false,
+	"pathSeparator": "/",
+	"sanitizeResourceNameSpaces": false,
+	"haveEnexLevelResources": false,
+	"haveGlobalResources": false,
+	"replacementChar": "_",
+	"logseqSettings": {
+		"journalNotes": false
+	},
+	"obsidianSettings": {
+		"omitLinkDisplayName": false
+	},
+	"currentTemplate": "---\n\n{created-at-block}_Created at {created-at}._{end-created-at-block}\n{updated-at-block}_Last updated at {updated-at}._{end-updated-at-block}\n{source-url-block}_Source URL: []({source-url})._{end-source-url-block}\n\n\n{tags-block}\nTagged: \n```\n{tags}\n```\n{end-tags-block}\n\n---\n\n{title-block}# {title}{end-title-block}\n\n\n{content-block}{content}{end-content-block}\n\n"
+}
