@@ -14,6 +14,7 @@ addToPath $HOME/.yarn/bin
 addToPath $HOME/.cargo/bin
 addToPath $HOME/.rustup
 addToPath /.npm-global/bin
+addToPath $HOME/code/one-offs
 
 addToPathFront $HOME/.local/bin
 addToPathFront $HOME/.local/go/bin

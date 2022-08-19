@@ -1,7 +1,7 @@
 {
   "book_details_splitter_horizontal_state": [
-    true,
-    200
+    false,
+    0
   ],
   "book_list_pin_splitter_state": {
     "__class__": "bytearray",
@@ -222,7 +222,7 @@
     "__value__": "AdnQywADAAAAAAFnAAAAOAAAA98AAAJVAAABZwAAADgAAAPfAAACVQAAAAAAAAAABVYAAAFnAAAAOAAAA98AAAJV"
   },
   "library_usage_stats": {
-    "/home/oof/Documents/calibre": 6
+    "/home/oof/Documents/calibre": 10
   },
   "memory_view books view state": {
     "column_alignment": {

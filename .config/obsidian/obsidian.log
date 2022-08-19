@@ -307,3 +307,22 @@
 2022-08-19 05:19:09 Success.
 2022-08-19 05:19:09 Latest version is 0.15.9
 2022-08-19 05:19:09 App is up to date.
+2022-08-19 19:52:41 Loading main app package /opt/Obsidian/resources/obsidian.asar
+2022-08-19 19:52:42 Checking for update using Github
+2022-08-19 19:52:42 Failed to check for update using Github (net::ERR_NETWORK_CHANGED)
+2022-08-19 19:52:42 Checking for update using obsidian.md
+2022-08-19 19:52:42 Success.
+2022-08-19 19:52:42 Latest version is 0.15.9
+2022-08-19 19:52:42 App is up to date.
+2022-08-19 20:52:42 Checking for update using Github
+2022-08-19 20:52:42 Success.
+2022-08-19 20:52:42 Latest version is 0.15.9
+2022-08-19 20:52:42 App is up to date.
+2022-08-19 21:52:42 Checking for update using Github
+2022-08-19 21:52:42 Success.
+2022-08-19 21:52:42 Latest version is 0.15.9
+2022-08-19 21:52:42 App is up to date.
+2022-08-19 22:52:42 Checking for update using Github
+2022-08-19 22:52:43 Success.
+2022-08-19 22:52:43 Latest version is 0.15.9
+2022-08-19 22:52:43 App is up to date.
