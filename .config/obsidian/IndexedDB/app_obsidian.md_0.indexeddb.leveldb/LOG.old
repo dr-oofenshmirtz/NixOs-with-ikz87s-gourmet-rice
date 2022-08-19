@@ -1,21 +1,12 @@
-2022/08/18-10:23:58.539 64e Reusing MANIFEST /home/oof/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2022/08/18-10:23:58.539 64e Recovering log #10
-2022/08/18-10:23:58.582 64e Reusing old log /home/oof/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000010.log 
-2022/08/18-11:43:39.451 67bf Level-0 table #15: started
-2022/08/18-11:43:39.530 67bf Level-0 table #15: 1182809 bytes OK
-2022/08/18-11:43:39.534 67bf Delete type=0 #10
-2022/08/18-11:44:01.151 67c0 Compacting 1@1 + 1@2 files
-2022/08/18-11:44:01.187 67c0 Generated table #16@1: 4174 keys, 811881 bytes
-2022/08/18-11:44:01.187 67c0 Compacted 1@1 + 1@2 files => 811881 bytes
-2022/08/18-11:44:01.189 67c0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/08/18-11:44:01.190 67c0 Delete type=2 #15
-2022/08/18-11:44:01.190 67c0 Delete type=2 #12
-2022/08/18-12:30:38.771 95b0 Level-0 table #18: started
-2022/08/18-12:30:38.823 95b0 Level-0 table #18: 1202082 bytes OK
-2022/08/18-12:30:38.829 95b0 Delete type=0 #14
-2022/08/18-12:31:46.509 95b0 Compacting 1@1 + 1@2 files
-2022/08/18-12:31:46.565 95b0 Generated table #19@1: 4336 keys, 847035 bytes
-2022/08/18-12:31:46.566 95b0 Compacted 1@1 + 1@2 files => 847035 bytes
-2022/08/18-12:31:46.571 95b0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/08/18-12:31:46.571 95b0 Delete type=2 #16
-2022/08/18-12:31:46.571 95b0 Delete type=2 #18
+2022/08/18-13:41:47.104 531 Reusing MANIFEST /home/oof/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/18-13:41:47.104 531 Recovering log #17
+2022/08/18-13:41:47.161 531 Reusing old log /home/oof/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000017.log 
+2022/08/18-13:52:39.673 15c4 Level-0 table #22: started
+2022/08/18-13:52:39.701 15c4 Level-0 table #22: 1203465 bytes OK
+2022/08/18-13:52:39.704 15c4 Delete type=0 #17
+2022/08/18-13:53:47.100 15c3 Compacting 1@1 + 1@2 files
+2022/08/18-13:53:47.175 15c3 Generated table #23@1: 4468 keys, 821628 bytes
+2022/08/18-13:53:47.175 15c3 Compacted 1@1 + 1@2 files => 821628 bytes
+2022/08/18-13:53:47.178 15c3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/08/18-13:53:47.178 15c3 Delete type=2 #19
+2022/08/18-13:53:47.178 15c3 Delete type=2 #22
