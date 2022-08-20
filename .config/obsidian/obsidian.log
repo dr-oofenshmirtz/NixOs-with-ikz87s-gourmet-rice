@@ -364,3 +364,13 @@
 2022-08-20 04:11:20 Failed to check for update using Github (net::ERR_INTERNET_DISCONNECTED)
 2022-08-20 04:11:20 Checking for update using obsidian.md
 2022-08-20 04:11:20 Failed to check for update using obsidian.md (net::ERR_NAME_NOT_RESOLVED)
+2022-08-20 05:23:26 Loading main app package /opt/Obsidian/resources/obsidian.asar
+2022-08-20 05:23:27 Checking for update using Github
+2022-08-20 05:23:27 Failed to check for update using Github (net::ERR_INTERNET_DISCONNECTED)
+2022-08-20 05:23:27 Checking for update using obsidian.md
+2022-08-20 05:23:27 Failed to check for update using obsidian.md (net::ERR_INTERNET_DISCONNECTED)
+2022-08-20 05:24:20 Loading main app package /opt/Obsidian/resources/obsidian.asar
+2022-08-20 05:24:20 Checking for update using Github
+2022-08-20 05:24:21 Success.
+2022-08-20 05:24:21 Latest version is 0.15.9
+2022-08-20 05:24:21 App is up to date.
