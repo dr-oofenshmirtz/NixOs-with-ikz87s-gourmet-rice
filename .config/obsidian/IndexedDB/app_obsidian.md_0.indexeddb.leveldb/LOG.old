@@ -1,3 +1,30 @@
-2022/08/20-18:29:11.195 658 Reusing MANIFEST /home/oof/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2022/08/20-18:29:11.195 658 Recovering log #51
-2022/08/20-18:29:11.269 658 Reusing old log /home/oof/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000051.log 
+2022/08/20-21:34:10.296 653 Reusing MANIFEST /home/oof/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/20-21:34:10.296 653 Recovering log #51
+2022/08/20-21:34:10.376 653 Reusing old log /home/oof/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000051.log 
+2022/08/20-21:40:08.040 653 Level-0 table #56: started
+2022/08/20-21:40:08.102 653 Level-0 table #56: 1024454 bytes OK
+2022/08/20-21:40:08.106 653 Delete type=0 #51
+2022/08/20-21:40:55.538 651 Compacting 1@1 + 1@2 files
+2022/08/20-21:40:55.570 651 Generated table #57@1: 5974 keys, 1104980 bytes
+2022/08/20-21:40:55.570 651 Compacted 1@1 + 1@2 files => 1104980 bytes
+2022/08/20-21:40:55.573 651 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/08/20-21:40:55.573 651 Delete type=2 #56
+2022/08/20-21:40:55.573 651 Delete type=2 #53
+2022/08/20-22:00:18.385 653 Level-0 table #59: started
+2022/08/20-22:00:18.412 653 Level-0 table #59: 1277470 bytes OK
+2022/08/20-22:00:18.416 653 Delete type=0 #55
+2022/08/20-22:00:57.315 653 Compacting 1@1 + 1@2 files
+2022/08/20-22:00:57.437 653 Generated table #60@1: 6029 keys, 1111922 bytes
+2022/08/20-22:00:57.437 653 Compacted 1@1 + 1@2 files => 1111922 bytes
+2022/08/20-22:00:57.442 653 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/08/20-22:00:57.442 653 Delete type=2 #59
+2022/08/20-22:00:57.442 653 Delete type=2 #57
+2022/08/20-22:17:06.309 2358 Level-0 table #62: started
+2022/08/20-22:17:06.333 2358 Level-0 table #62: 1228628 bytes OK
+2022/08/20-22:17:06.337 2358 Delete type=0 #58
+2022/08/20-22:17:48.406 2358 Compacting 1@1 + 1@2 files
+2022/08/20-22:17:48.459 2358 Generated table #63@1: 6038 keys, 1198835 bytes
+2022/08/20-22:17:48.459 2358 Compacted 1@1 + 1@2 files => 1198835 bytes
+2022/08/20-22:17:48.461 2358 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/08/20-22:17:48.461 2358 Delete type=2 #62
+2022/08/20-22:17:48.461 2358 Delete type=2 #60
