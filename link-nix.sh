@@ -31,10 +31,16 @@ mkdir /etc/nixos/.oldconfs | true
 
 echo "Creating Backups"
 
-date +%F >> /etc/nixos/bak.meta.txt
-date +%T >> /etc/nixos/bak.meta.txt
-cp /etc/nixos/* "$PWD/oldconfs/"
-mv -f /etc/nixos/* /etc/nixos/.oldconfs/
+date +%F >> /etc/nixos/.oldconfs/bak.meta.txt
+date +%T >> /etc/nixos/.oldconfs/bak.meta.txt
+
+mv -f /etc/nixos/configuration.nix /etc/nixos/.oldconfs/
+mv -f /etc/nixos/deps.* /etc/nixos/.oldconfs/
+mv -f /etc/nixos/vars.nix /etc/nixos/.oldconfs/
+mv -f /etc/nixos/userconf.nix /etc/nixos/.oldconfs/
+mv -f /etc/nixos/systemconf.nix /etc/nixos/.oldconfs/
+
+cp /etc/nixos/.oldconfs "$PWD/oldconfs/"
 
 #### ================
 ## Linking new configs
