@@ -1,4 +1,6 @@
 backup.tar*
+flameshot/*
+.lesshst
 *.zip
 */*.zip
 .ssh
