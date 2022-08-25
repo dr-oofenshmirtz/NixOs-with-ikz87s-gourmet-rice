@@ -1,4 +1,6 @@
 backup.tar*
+oldconfs
+*.tar.gz
 flameshot/*
 .lesshst
 *.zip

@@ -12,39 +12,39 @@ mkdir ~/.oldconfigs/.config || true
 
 echo "moving old configs to backup folders"
 # move
-mv ~/.bashrc ~/.oldconfigs/
-mv ~/.npmrc ~/.oldconfigs/
-mv ~/.gitignore ~/.oldconfigs/
-mv ~/.git-sync-last-run.log ~/.oldconfigs/
-mv ~/.profile ~/.oldconfigs/
-mv ~/.rebinds ~/.oldconfigs/
-mv ~/.selected_editor ~/.oldconfigs/
-mv ~/.xbindkeysrc ~/.oldconfigs/
-mv ~/.xprofile  ~/.oldconfigs/
-mv ~/.zshenv ~/.oldconfigs/
-mv ~/.zshrc ~/.oldconfigs/
+mv ~/.bashrc ~/.oldconfigs/ || true
+mv ~/.npmrc ~/.oldconfigs/ || true
+mv ~/.gitignore ~/.oldconfigs/ || true
+mv ~/.git-sync-last-run.log ~/.oldconfigs/ || true
+mv ~/.profile ~/.oldconfigs/ || true
+mv ~/.rebinds ~/.oldconfigs/ || true
+mv ~/.selected_editor ~/.oldconfigs/ || true
+mv ~/.xbindkeysrc ~/.oldconfigs/ || true
+mv ~/.xprofile  ~/.oldconfigs/ || true
+mv ~/.zshenv ~/.oldconfigs/ || true
+mv ~/.zshrc ~/.oldconfigs/ || true
 
-mv -f ~/.fonts ~/.oldconfigs/
+mv -f ~/.fonts ~/.oldconfigs/ || true
 
-mv -f ~/.config/calibre ~/.oldconfigs/.config/
-mv -f ~/.config/coc ~/.oldconfigs/.config/
-mv -f ~/.config/flameshot ~/.oldconfigs/.config/
-mv -f ~/.config/GIMP ~/.oldconfigs/.config/
-mv -f ~/.config/gocode ~/.oldconfigs/.config/
-mv -f ~/.config/gtk-2.0 ~/.oldconfigs/.config/
-mv -f ~/.config/gtk-3.0 ~/.oldconfigs/.config/
-mv -f ~/.config/i3 ~/.oldconfigs/.config/
-mv -f ~/.config/i3blocks ~/.oldconfigs/.config/
-mv -f ~/.config/kitty ~/.oldconfigs/.config/
-mv -f ~/.config/lazygit ~/.oldconfigs/.config/
-mv -f ~/.config/neon80sConfigs ~/.oldconfigs/.config/
-mv -f ~/.config/nvim ~/.oldconfigs/.config/
-mv -f ~/.config/obsidian ~/.oldconfigs/.config/
-mv -f ~/.config/picom ~/.oldconfigs/.config/
-mv -f ~/.config/systemd ~/.oldconfigs/.config/
-mv -f ~/.config/Thunar ~/.oldconfigs/.config/
-mv -f ~/.config/transmission ~/.oldconfigs/.config/
-mv -f ~/.config/tree-sitter ~/.oldconfigs/.config/
+mv -f ~/.config/calibre ~/.oldconfigs/.config/ || true
+mv -f ~/.config/coc ~/.oldconfigs/.config/ || true
+mv -f ~/.config/flameshot ~/.oldconfigs/.config/ || true
+mv -f ~/.config/GIMP ~/.oldconfigs/.config/ || true
+mv -f ~/.config/gocode ~/.oldconfigs/.config/ || true
+mv -f ~/.config/gtk-2.0 ~/.oldconfigs/.config/ || true
+mv -f ~/.config/gtk-3.0 ~/.oldconfigs/.config/ || true
+mv -f ~/.config/i3 ~/.oldconfigs/.config/ || true
+mv -f ~/.config/i3blocks ~/.oldconfigs/.config/ || true
+mv -f ~/.config/kitty ~/.oldconfigs/.config/ || true
+mv -f ~/.config/lazygit ~/.oldconfigs/.config/ || true
+mv -f ~/.config/neon80sConfigs ~/.oldconfigs/.config/ || true
+mv -f ~/.config/nvim ~/.oldconfigs/.config/ || true
+mv -f ~/.config/obsidian ~/.oldconfigs/.config/ || true
+mv -f ~/.config/picom ~/.oldconfigs/.config/ || true
+mv -f ~/.config/systemd ~/.oldconfigs/.config/ || true
+mv -f ~/.config/Thunar ~/.oldconfigs/.config/ || true
+mv -f ~/.config/transmission ~/.oldconfigs/.config/ || true
+mv -f ~/.config/tree-sitter ~/.oldconfigs/.config/ || true
 
 ### =================
 ## link files
