@@ -3,7 +3,7 @@
 {
   imports = 
   [
-    ./hardware-configuration.nix
+    /etc/nixos/hardware-configuration.nix
     ./deps.system.nix
     ./deps.rice.nix
     ./deps.user.nix

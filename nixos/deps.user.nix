@@ -13,5 +13,6 @@
     pkgs.monero-gui
     pkgs.obsidian
     pkgs.qbittorrent
+    pkgs.ytfzf
   ];
 }

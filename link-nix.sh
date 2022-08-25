@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #### ================
-## checking
+## checking perms
 #### ================
 
 if [ "$EUID" -ne 0 ]
@@ -40,7 +40,7 @@ mv -f /etc/nixos/vars.nix /etc/nixos/.oldconfs/
 mv -f /etc/nixos/userconf.nix /etc/nixos/.oldconfs/
 mv -f /etc/nixos/systemconf.nix /etc/nixos/.oldconfs/
 
-cp /etc/nixos/.oldconfs "$PWD/oldconfs/"
+cp /etc/nixos/.oldconfs/* "$PWD/oldconfs/"
 
 #### ================
 ## Linking new configs

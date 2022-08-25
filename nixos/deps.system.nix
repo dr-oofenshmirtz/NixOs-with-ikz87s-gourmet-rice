@@ -4,17 +4,19 @@
 {
   environment.systemPackages = with pkgs; [
     vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+    pkgs.cargo
+    pkgs.fzf
+    pkgs.fzf-zsh
     pkgs.gh
     pkgs.git
     pkgs.neovim
     pkgs.nix-direnv
     pkgs.nmap
     pkgs.nodejs
+    pkgs.oh-my-zsh
     pkgs.rust-analyzer
-    pkgs.rustup
     pkgs.rustc
     pkgs.rustfmt
-    pkgs.cargo
     pkgs.unar
     pkgs.zsh 
   ];
