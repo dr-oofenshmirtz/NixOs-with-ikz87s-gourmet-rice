@@ -6,15 +6,16 @@
 
 echo "creating backup folders"
 # create bak folders
-mkdir ~/.oldconfigs > /dev/null
-mkdir ~/.oldconfigs/.config > /dev/null
+rm -rf ~/.oldconfigs || true
+mkdir ~/.oldconfigs || true
+mkdir ~/.oldconfigs/.config || true
 
 echo "moving old configs to backup folders"
 # move
 mv ~/.bashrc ~/.oldconfigs/
 mv ~/.npmrc ~/.oldconfigs/
 mv ~/.gitignore ~/.oldconfigs/
-mv ~/.git-sync-last-run-log ~/.oldconfigs/
+mv ~/.git-sync-last-run.log ~/.oldconfigs/
 mv ~/.profile ~/.oldconfigs/
 mv ~/.rebinds ~/.oldconfigs/
 mv ~/.selected_editor ~/.oldconfigs/
@@ -52,9 +53,9 @@ mv -f ~/.config/tree-sitter ~/.oldconfigs/.config/
 echo "making symlinks"
 ln -s "$PWD/.bashrc" ~/
 ln -s "$PWD/.npmrc" ~/
-ln -s "$PWD/.fonts" ~/
+ln -s "$PWD/fonts" ~/.fonts
 ln -s "$PWD/.gitignore" ~/
-ln -s "$PWD/.git-sync-last-fun.log" ~/
+ln -s "$PWD/.git-sync-last-run.log" ~/
 ln -s "$PWD/.profile" ~/
 ln -s "$PWD/.rebinds" ~/
 ln -s "$PWD/.selected_editor" ~/
@@ -63,25 +64,25 @@ ln -s "$PWD/.xprofile" ~/
 ln -s "$PWD/.zshenv" ~/
 ln -s "$PWD/.zshrc" ~/
 
-ln -s "$PWD/.config/calibre" ~/.config/
-ln -s "$PWD/.config/coc" ~/.config/
-ln -s "$PWD/.config/flameshot" ~/.config/
-ln -s "$PWD/.config/GIMP" ~/.config/
-ln -s "$PWD/.config/gocode" ~/.config/
-ln -s "$PWD/.config/gtk-2.0" ~/.config/
-ln -s "$PWD/.config/gtk-3.0" ~/.config/
-ln -s "$PWD/.config/i3" ~/.config/
-ln -s "$PWD/.config/i3blocks" ~/.config/
-ln -s "$PWD/.config/kitty" ~/.config/
-ln -s "$PWD/.config/lazygit" ~/.config/
-ln -s "$PWD/.config/neon80sConfigs" ~/.config/
-ln -s "$PWD/.config/nvim" ~/.config/
-ln -s "$PWD/.config/obsidian" ~/.config/
-ln -s "$PWD/.config/picom" ~/.config/
-ln -s "$PWD/.config/systemd" ~/.config/
-ln -s "$PWD/.config/Thunar" ~/.config/
-ln -s "$PWD/.config/transmission" ~/.config/
-ln -s "$PWD/.config/tree-sitter" ~/.config/
+ln -s "$PWD/config/calibre" ~/.config/
+ln -s "$PWD/config/coc" ~/.config/
+ln -s "$PWD/config/flameshot" ~/.config/
+ln -s "$PWD/config/GIMP" ~/.config/
+ln -s "$PWD/config/gocode" ~/.config/
+ln -s "$PWD/config/gtk-2.0" ~/.config/
+ln -s "$PWD/config/gtk-3.0" ~/.config/
+ln -s "$PWD/config/i3" ~/.config/
+ln -s "$PWD/config/i3blocks" ~/.config/
+ln -s "$PWD/config/kitty" ~/.config/
+ln -s "$PWD/config/lazygit" ~/.config/
+ln -s "$PWD/config/neon80sConfigs" ~/.config/
+ln -s "$PWD/config/nvim" ~/.config/
+ln -s "$PWD/config/obsidian" ~/.config/
+ln -s "$PWD/config/picom" ~/.config/
+ln -s "$PWD/config/systemd" ~/.config/
+ln -s "$PWD/config/Thunar" ~/.config/
+ln -s "$PWD/config/transmission" ~/.config/
+ln -s "$PWD/config/tree-sitter" ~/.config/
 
 
 ### =================
