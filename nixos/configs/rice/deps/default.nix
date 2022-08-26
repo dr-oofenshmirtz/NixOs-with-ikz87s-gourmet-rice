@@ -6,7 +6,6 @@
   environment.systemPackages = with pkgs; [
     pkgs.acpi
     #pkgs.amixer might be alsamixer
-    pkgs.blueman #
     pkgs.brave
     pkgs.bspwm
     pkgs.colorpicker
@@ -20,9 +19,6 @@
     pkgs.hsetroot
     pkgs.kitty
     #pkgs.mantablockscreen gonna have to github install
-    pkgs.paper-icon-theme #spicetify and 
-    # pkgs.pacmd probably a pulse setting
-    # pkgs.pactl
     pkgs.picom
     pkgs.playerctl
     pkgs.polybar
