@@ -45,6 +45,7 @@ cp /etc/nixos/.oldconfs/* "$PWD/oldconfs/"
 
 echo "Linking New Configs"
 
+# This feels like it might not work long term
 ln -s "$PWD/nixos/"* /etc/nixos/
 
 #### ================
