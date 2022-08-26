@@ -4,3 +4,6 @@
 [submodule "rice"]
 	path = rice
 	url = https://github.com/dr-oofenshmirtz/ikz87s-gourmet-rice
+[submodule "nixos/configs/rice"]
+	path = nixos/configs/rice
+	url = https://github.com/dr-oofenshmirtz/ikz87s-gourmet-rice
