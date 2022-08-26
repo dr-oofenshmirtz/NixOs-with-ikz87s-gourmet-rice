@@ -11,6 +11,7 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-./link-nix.sh
-sudo -u `logname` ./link.sh
+./setup-scripts/link-nix.sh
+sudo -u `logname` ./setup-scripts/link.sh
+sudo -u `logname` ./setup-scripts/link-rice.sh
 nixos-rebuild switch
