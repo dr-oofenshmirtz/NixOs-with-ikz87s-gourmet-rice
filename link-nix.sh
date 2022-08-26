@@ -35,10 +35,7 @@ date +%F >> /etc/nixos/.oldconfs/bak.meta.txt
 date +%T >> /etc/nixos/.oldconfs/bak.meta.txt
 
 mv -f /etc/nixos/configuration.nix /etc/nixos/.oldconfs/
-mv -f /etc/nixos/deps.* /etc/nixos/.oldconfs/
-mv -f /etc/nixos/vars.nix /etc/nixos/.oldconfs/
-mv -f /etc/nixos/userconf.nix /etc/nixos/.oldconfs/
-mv -f /etc/nixos/systemconf.nix /etc/nixos/.oldconfs/
+mv -f /etc/nixos/configs/* /etc/nixos/.oldconfs/configs/
 
 cp /etc/nixos/.oldconfs/* "$PWD/oldconfs/"
 

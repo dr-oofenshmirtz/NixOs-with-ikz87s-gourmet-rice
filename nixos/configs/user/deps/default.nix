@@ -2,7 +2,6 @@
 
 {
   environment.systemPackages = with pkgs; [
-    #personal
     pkgs.calibre
     pkgs.discord
     pkgs.electrum
