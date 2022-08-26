@@ -4,21 +4,11 @@
 
 {
   environment.systemPackages = with pkgs; [
-    # probably don't need but here for ref
-    # pkgs.blueman-applet
-    # pkgs.pa-applet this is a different config block
-    # pkgs.nm-applet
-
-
-    #rice
     pkgs.acpi
     #pkgs.amixer might be alsamixer
-    pkgs.alttab #
     pkgs.blueman #
     pkgs.brave
     pkgs.bspwm
-    #pkgs.bspswallow
-    pkgs.gnomeExtensions.cairo-clock  
     pkgs.colorpicker
     pkgs.dbus
     pkgs.dbus.daemon
@@ -28,23 +18,15 @@
     pkgs.flameshot
     #pkgs.gdbus possible dbus-glib possible already in dbus
     pkgs.hsetroot
-    pkgs.i3lock
-    pkgs.i3blocks #
     pkgs.kitty
-    pkgs.looking-glass-client #
-    pkgs.gnome.nautilus
-    pkgs.nautilus-open-any-terminal
     #pkgs.mantablockscreen gonna have to github install
-    pkgs.mpv
-    pkgs.paper-icon-theme #
+    pkgs.paper-icon-theme #spicetify and 
     # pkgs.pacmd probably a pulse setting
     # pkgs.pactl
-    pkgs.pavucontrol
     pkgs.picom
     pkgs.playerctl
     pkgs.polybar
     pkgs.polkit_gnome
-    pkgs.pqiv
     pkgs.pulseaudio
     pkgs.pulseaudio-ctl
     pkgs.python3Full
@@ -55,7 +37,6 @@
     pkgs.spotify
     pkgs.sxhkd
     pkgs.sysstat # for mpstat
-    pkgs.vlc #
     pkgs.xclip
     pkgs.xdg-desktop-portal-gnome
     pkgs.xdotool
@@ -65,8 +46,6 @@
     pkgs.xorg.xwininfo
     pkgs.wmctrl
     pkgs.wpgtk
-    pkgs.yad
-
   ];
  
   # Overwrites	
