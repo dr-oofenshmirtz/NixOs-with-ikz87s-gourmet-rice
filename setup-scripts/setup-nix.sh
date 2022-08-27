@@ -14,4 +14,4 @@ fi
 ./setup-scripts/link-nix.sh
 sudo -u `logname` ./setup-scripts/link.sh
 sudo -u `logname` ./setup-scripts/link-rice.sh
-nixos-rebuild switch
+nixos-rebuild test

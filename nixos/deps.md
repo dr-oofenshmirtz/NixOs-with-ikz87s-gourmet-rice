@@ -12,11 +12,6 @@ feh
 firefox
 flameshot - screenshots
 GIMP
-golang
-gtk-2.0
-gtk-3.0
-i3
-i3Blocks
 kitty
 lazygit
 main - screenshot
