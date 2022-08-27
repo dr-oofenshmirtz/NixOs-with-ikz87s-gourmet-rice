@@ -4,8 +4,6 @@
   # Enable Flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  #inputs.spicetify-nix.url = "github:the-argus/spicetify-nix";
-
   # Bootloader.
   boot.loader.grub.enable = true;
   boot.loader.grub.device = "/dev/sda";

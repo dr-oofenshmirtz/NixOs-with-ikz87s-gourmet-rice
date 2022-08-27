@@ -9,7 +9,11 @@
     extraGroups = [ "networkmanager" "wheel" ];
   };
 
+  services.xserver.enable = true;
+  services.xserver.displayManager.startx.enable = true;
+  services.xserver.windowManager.bspwm.enable = true;
   # Enable automatic login for the user.
   services.xserver.displayManager.autoLogin.enable = true;
   services.xserver.displayManager.autoLogin.user = "yikers";
+  services.xserver.displayManager.defaultSession = "none+bspwm";
 }
