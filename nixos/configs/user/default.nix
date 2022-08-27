@@ -7,10 +7,6 @@
     description = "yikers";
     shell = pkgs.zsh;
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-      firefox
-      kate
-    ];
   };
 
   # Enable automatic login for the user.
